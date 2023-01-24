@@ -35,7 +35,7 @@ http://localhost:3001
 
 [![note-taker-screenshot1](public/assets/images/screenshot-note-taker-1.png)]()
 <br><br>
-[![note-taker-screenshot2](public/assets/images/screenshot-note-taker-2.png)]()
+[![note-taker-screenshot2](public/assets/images/screenshot-note-taker-02.png)]()
   ## Contributing
   Olivia Seonyeong Lee
   
