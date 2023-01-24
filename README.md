@@ -5,7 +5,6 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contributing](#contributing)
   - [Questions](#questions)
   
@@ -31,7 +30,7 @@ http://localhost:3001
 ```
 
   ## Usage
-  Live HEROKU application deployed at: [Click here]() <br>
+  Live HEROKU application deployed at: [Click here](https://mysterious-crag-28080.herokuapp.com/) <br>
 
 [![note-taker-screenshot1](public/assets/images/screenshot-note-taker-1.png)]()
 <br><br>
