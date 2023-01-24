@@ -1,27 +1,27 @@
 [
     {
-        "title": "Call bank on Friday",
-        "text": "test",
-        "note_id": "dkfj2l3k"
+        "title": "Grocery shopping",
+        "text": "milk, bread, eggs, bananas",
+        "id": "ae2c"
     },
     {
-        "title": "Finish payroll",
-        "text": "dddd",
-        "note_id": "532b"
+        "title": "Pay bills",
+        "text": "electricity, rent, phone, credit card",
+        "id": "32fb"
     },
     {
-        "title": "client lunch on Tuesday",
-        "text": "testtest",
-        "note_id": "c40f"
+        "title": "Call plumber",
+        "text": "schedule repair of leaky faucet",
+        "id": "316c"
     },
     {
-        "title": "Dinner with Cookie",
-        "text": "7:00pm ",
-        "note_id": "cf09"
+        "title": "Prepare dinner",
+        "text": "grilled chicken with vegetables",
+        "id": "8ced"
     },
     {
-        "title": "dff",
-        "text": "dddd",
-        "id": "8252"
+        "title": "Organize closet",
+        "text": "donate clothes that no longer fit",
+        "id": "436c"
     }
 ]
