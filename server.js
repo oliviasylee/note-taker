@@ -17,12 +17,11 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// arrow function -> express middleware 
 // This will match any request that doesn't match any of the other routes you have defined, and it will send the 'public/index.html' file as a response.
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/index.html'));
   });
 
-  app.listen(process.env.PORT || PORT, () =>
+app.listen(process.env.PORT || PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );

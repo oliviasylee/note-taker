@@ -10,7 +10,7 @@ router.get('/notes', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-// POST Route 
+// POST Route for adding note
 router.post('/notes', (req, res) => {
     console.log('req.body: ', req.body)
 
@@ -34,6 +34,7 @@ router.post('/notes', (req, res) => {
     }
 });
 
+// DELETE route for deleting note
 router.delete('/notes/:id`', (req, res) => {
     readFromFile('./db/db.json').then((data) => {
         let notes = JSON.parse(data);
