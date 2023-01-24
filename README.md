@@ -33,9 +33,9 @@ http://localhost:3001
   ## Usage
   Live HEROKU application deployed at: [Click here]() <br>
 
-[![note-taker-screenshot2](public/assets/images/screenshot-note-taker-2.png)]()
+[![note-taker-screenshot1](public/assets/images/screenshot-note-taker-1.png)]()
 <br><br>
-[![note-taker-screenshot](public/assets/images/screenshot-note-taker.png)]()
+[![note-taker-screenshot2](public/assets/images/screenshot-note-taker-2.png)]()
   ## Contributing
   Olivia Seonyeong Lee
   
