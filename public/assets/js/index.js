@@ -96,22 +96,23 @@ const handleNoteDelete = (e) => {
 };
 
 // Sets the activeNote and displays it
-  // const handleNoteView = (e) => {
-  //   e.preventDefault();
-  //   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
-  //   renderActiveNote();
-  // };
-
   const handleNoteView = (e) => {
     e.preventDefault();
-    // Sets activeNote according to whether the span or li element is clicked
-    if (e.target.parentElement.getAttribute('class') === 'list-group-item') {
-        activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
-    } else {
-        activeNote = JSON.parse(e.target.getAttribute('data-note'));
-    }
+    activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
     renderActiveNote();
-};
+  };
+
+//   const handleNoteView = (e) => {
+//     e.preventDefault();
+    // Sets activeNote according to whether the span or li element is clicked
+//     if (e.target.parentElement.getAttribute('class') === 'list-group-item') {
+//         activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+//     } else {
+//         activeNote = JSON.parse(e.target.getAttribute('data-note'));
+//     }
+//     renderActiveNote();
+// };
+
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {

@@ -23,7 +23,7 @@ router.post('/notes', (req, res) => {
             const newNote = {
                 title,
                 text,
-                note_id: uuid(),
+                id: uuid(),
             };
             console.log('newNote: ', newNote);
             readAndAppend(newNote, './db/db.json');
@@ -34,13 +34,25 @@ router.post('/notes', (req, res) => {
     }
 });
 
-// router.delete('/notes/:id`', (req, res) => {
+router.delete('/notes/:id`', (req, res) => {
+    readFromFile('./db/db.json').then((data) => {
+        let notes = JSON.parse(data);
+        notes = notes.filter(note => note.id !== req.params.id);
+        console.log(notes)
+        fs.writeFile('./db/db.json', JSON.stringify(notes));
+        res.json('Note deleted successfully!');
+    });
+});
+
+// router.delete('/notes/:id', (req, res) => {
 //     readFromFile('./db/db.json').then((data) => {
 //         let notes = JSON.parse(data);
-//         notes = notes.filter(note => note.note_id !== req.params.id);
+//         notes = notes.filter(note => note.id !== req.params.id);
 //         console.log(notes)
-//         fs.writeFile('./db/db.json', JSON.stringify(notes));
-//         res.json('Note deleted successfully!');
+//         fs.writeFile('./db/db.json', JSON.stringify(notes), (err) => {
+//           if(err) throw err;
+//           res.json('Note deleted successfully!');
+//         });
 //     });
 // });
 
