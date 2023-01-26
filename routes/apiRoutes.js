@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const fs = require('fs');
+const path = require('path')
 
 // Helper method for generating unique ids
 const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
@@ -35,26 +36,17 @@ router.post('/notes', (req, res) => {
 });
 
 // DELETE route for deleting note
-router.delete('/notes/:id`', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     readFromFile('./db/db.json').then((data) => {
         let notes = JSON.parse(data);
         notes = notes.filter(note => note.id !== req.params.id);
         console.log(notes)
-        fs.writeFile('./db/db.json', JSON.stringify(notes));
+        fs.writeFileSync(
+            path.join(__dirname, '../db/db.json'),
+            JSON.stringify(notes)
+            )
         res.json('Note deleted successfully!');
     });
 });
-
-// router.delete('/notes/:id', (req, res) => {
-//     readFromFile('./db/db.json').then((data) => {
-//         let notes = JSON.parse(data);
-//         notes = notes.filter(note => note.id !== req.params.id);
-//         console.log(notes)
-//         fs.writeFile('./db/db.json', JSON.stringify(notes), (err) => {
-//           if(err) throw err;
-//           res.json('Note deleted successfully!');
-//         });
-//     });
-// });
 
 module.exports = router;
