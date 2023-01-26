@@ -1,6 +1,6 @@
   # Note Taker
   ## Description
-   The Note Taker application allows users to add, view, and delete notes.(Still working on DELETE) It uses an express backend and stores the note data in a JSON file. The notes consist of a title and text body.
+   The Note Taker application allows users to add, view, and delete notes. It uses an express backend and stores the note data in a JSON file. The notes consist of a title and text body.
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
