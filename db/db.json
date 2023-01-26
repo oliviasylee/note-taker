@@ -1,6 +1,27 @@
 [
-    {"title":"Grocery shopping","text":"milk, bread, eggs, bananas","id":"9f72"},
-    {"title":"Pay bills","text":"electricity, rent, phone, credit card","id":"8d4b"},
-    {"title":"Call plumber","text":"schedule repair of leaky faucet","id":"e8ad"},
-    {"title":"Prepare dinner","text":"grilled chicken with vegetables","id":"4c9f"}
+    {
+        "title": "Pay bills",
+        "text": "electricity, rent, phone, credit card",
+        "id": "8d4b"
+    },
+    {
+        "title": "Call plumber",
+        "text": "schedule repair of leaky faucet",
+        "id": "e8ad"
+    },
+    {
+        "title": "Prepare dinner",
+        "text": "grilled chicken with vegetables",
+        "id": "4c9f"
+    },
+    {
+        "title": "Grocery shopping",
+        "text": "Oatmilk, Keto bread, eggs, Envy apples",
+        "id": "fbde"
+    },
+    {
+        "title": "Organize closet",
+        "text": "donate clothes that no longer fit",
+        "id": "38ab"
+    }
 ]
