@@ -30,7 +30,7 @@ http://localhost:3001
 ```
 
   ## Usage
-  Live HEROKU application deployed at: [Click here](https://mysterious-crag-28080.herokuapp.com/) <br>
+  Live HEROKU application deployed at: [Click here](https://note-taker-oslee.herokuapp.com/) <br>
 
 [![note-taker-screenshot1](public/assets/images/screenshot-note-taker-1.png)]()
 <br><br>
