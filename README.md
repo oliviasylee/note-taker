@@ -29,14 +29,12 @@ node server.js
 http://localhost:3001
 ```
 
-  ## Usage
-  Live HEROKU application deployed at: [Click here](https://note-taker-oslee.herokuapp.com/) <br>
+## Usage
+Live HEROKU application deployed at: [Click here](https://note-taker-oslee.herokuapp.com/) <br>
 
 [![note-taker-screenshot1](public/assets/images/screenshot-note-taker-1.png)]()
 <br><br>
 [![note-taker-screenshot2](public/assets/images/screenshot-note-taker-02.png)]()
-  ## Contributing
-  Olivia Seonyeong Lee
-  
-  ## Questions
-  If you have any questions about this projects, please contact me at oliviasylee@Gmail.com. You can view more of my projects at https://github.com/oliviasylee.
+
+## Questions
+If you have any questions about this projects, please contact me at oliviasylee@Gmail.com. You can view more of my projects at https://github.com/oliviasylee.
